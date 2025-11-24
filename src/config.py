@@ -19,6 +19,8 @@ EXAMPLES_DIR = PROJECT_ROOT / "examples" / "plots"
 # Имена файлов по умолчанию
 LISA_ZIP_PATH = RAW_DATA_DIR / "Lisa.zip"
 AREAS_WITH_CONC_PATH = PROCESSED_DATA_DIR / "areas_with_conc.xlsx"
+CONC_INPUT_PATH = PROCESSED_DATA_DIR / "concentrations.xlsx"           # файл БЕЗ площадей
+CONC_WITH_AREAS_PATH = PROCESSED_DATA_DIR / "concentrations_with_areas.xlsx"  # файл С площадями
 CV_RESULTS_PATH = PROCESSED_DATA_DIR / "cv_results.csv"
 RF_MODEL_PATH = WEIGHTS_DIR / "rf_bmaa_model.joblib"
 
